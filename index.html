@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Information</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.rtl.min.css"
+        integrity="sha384-nU14brUcp6StFntEOOEBvcJm4huWjB0OcIeQ3fltAfSmuZFrkAif0T+UtNGlKKQv" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link href="style.css" rel='stylesheet'>
+
+
+</head>
+
+<body>
+    <div class="movie my-5">
+        <div >
+            <h1 class="text-center">Movie Information</h1>
+            <label for="movieInput">Enter Movie Title:</label>
+            <input type="text" id="movieInput" placeholder="Enter movie title" onfocus="focusFunction()"
+                onblur="blurFunction()" onmouseenter="hoverFunction()">
+            <button type="button" onclick="getMovieInfo()">Get Movie Info</button>
+            <button type="button" onclick="clearMovieInfo()">Clear Movie Info</button>
+
+        </div>
+
+        <div id="movieInfo"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

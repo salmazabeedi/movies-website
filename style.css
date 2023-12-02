@@ -1,0 +1,55 @@
+body {
+    background: url(https://i.pinimg.com/736x/f9/94/c5/f994c5495afd6dbf6e6eec9f383ac01e.jpg) repeat;
+    background-size:     cover;               
+    background-repeat:   no-repeat;
+    background-position: flex;
+    min-height: 100vh;
+    max-width: 100%;
+    font-family: 'Poppins';
+
+}
+
+.movie {
+    position: relative;
+    border: 1px solid #e3d9cf;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgb(106, 106, 106);
+    overflow: hidden;
+    color: white;
+    align-items: center;
+    margin: 20px;
+}
+
+button {
+    background-color: rgb(66, 66, 66);
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    margin: 3px;
+}
+
+button:hover {
+    background-color: grey;
+}
+
+input {
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.error-message {
+    background-color: rgb(171, 146, 146);
+    text-align: center;
+    margin: 5px;
+    border: 1px solid rgb(171, 146, 146);
+    border-radius: 10px;
+   
+}
+
+img{
+    border-radius: 10px;
+    margin: 5px;
+    width: 50%;
+
+}
